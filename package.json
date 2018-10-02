@@ -1,0 +1,40 @@
+{
+  "name": "poppy",
+  "version": "1.0.1",
+  "description": "A tiny, fast, configurable popover.",
+  "source": "index.js",
+  "module": "dist/poppy.es.js",
+  "jsnext:main": "dist/poppy.es.js",
+  "main": "dist/poppy.js",
+  "umd:main": "dist/poppy.umd.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "microbundle build",
+    "watch": "microbundle watch",
+    "publish": "npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/estrattonbailey/poppy.git"
+  },
+  "author": "estrattonbailey",
+  "keywords": [
+    "tooltip",
+    "popover",
+    "popovers"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/estrattonbailey/poppy/issues"
+  },
+  "homepage": "https://github.com/estrattonbailey/poppy#readme",
+  "devDependencies": {
+    "microbundle": "^0.4.4"
+  },
+  "dependencies": {
+    "tackjs": "^1.0.0",
+    "tarry.js": "^1.1.1"
+  }
+}
