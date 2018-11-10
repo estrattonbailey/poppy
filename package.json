@@ -35,6 +35,6 @@
   },
   "dependencies": {
     "tackjs": "^1.0.0",
-    "tarry.js": "^1.1.1"
+    "tarry.js": "^0.3.1"
   }
 }
