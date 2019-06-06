@@ -1,6 +1,6 @@
 {
   "name": "poppy",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A tiny, fast, configurable popover.",
   "source": "index.js",
   "module": "dist/poppy.es.js",
