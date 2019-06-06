@@ -1,4 +1,4 @@
-import { tack } from 'tackjs'
+import tack from 'tackjs'
 import { tarry, queue } from 'tarry.js'
 
 export default class Popover {

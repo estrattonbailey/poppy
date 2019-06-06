@@ -11,7 +11,7 @@
     "dist"
   ],
   "scripts": {
-    "build": "microbundle build",
+    "build": "microbundle build --external none",
     "watch": "microbundle watch",
     "publish": "npm publish"
   },
@@ -31,10 +31,10 @@
   },
   "homepage": "https://github.com/estrattonbailey/poppy#readme",
   "devDependencies": {
-    "microbundle": "^0.4.4"
+    "microbundle": "^0.11.0"
   },
   "dependencies": {
-    "tackjs": "^1.0.0",
+    "tackjs": "^1.1.2",
     "tarry.js": "^0.3.1"
   }
 }
